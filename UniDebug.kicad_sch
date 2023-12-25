@@ -395,7 +395,7 @@
     )
     (pin "1" (uuid c3e970f4-7ffc-42d2-9c2f-1374dedfb20f))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2"
           (reference "H1") (unit 1)
         )
@@ -420,7 +420,7 @@
     )
     (pin "1" (uuid a2890893-3117-47c0-8330-5d4dc5bbf986))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2"
           (reference "H3") (unit 1)
         )
@@ -445,7 +445,7 @@
     )
     (pin "1" (uuid d43d4135-45a2-4f8d-8c2d-193a6314a0d8))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2"
           (reference "#PWR024") (unit 1)
         )
@@ -470,7 +470,7 @@
     )
     (pin "1" (uuid 3e22a045-6721-434c-8c14-676a6533afd7))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2"
           (reference "H2") (unit 1)
         )
@@ -495,7 +495,7 @@
     )
     (pin "1" (uuid 3bd3811c-8aab-4c75-b702-08822835c3cb))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2"
           (reference "H4") (unit 1)
         )
@@ -566,7 +566,7 @@
       (uuid 29e9a12f-b997-49ba-8647-c7ed5bf8a6c3)
     )
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2" (page "7"))
       )
     )
@@ -615,7 +615,7 @@
       (uuid ed560308-0502-40e8-befb-7f94e2217d5c)
     )
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2" (page "6"))
       )
     )
@@ -676,7 +676,7 @@
       (uuid 82f07c86-24d2-44f9-ad7d-702c5560134c)
     )
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2" (page "2"))
       )
     )
@@ -717,7 +717,7 @@
       (uuid bb701ad6-875e-456c-8e38-47a78db27a81)
     )
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2" (page "4"))
       )
     )
@@ -750,7 +750,7 @@
       (uuid 0ffa01f5-179e-4a87-a537-36f5fada8645)
     )
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2" (page "5"))
       )
     )
@@ -783,7 +783,7 @@
       (uuid 78154f78-a2de-435b-b4e8-e22643220845)
     )
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2" (page "3"))
       )
     )

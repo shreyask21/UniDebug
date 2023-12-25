@@ -1140,9 +1140,6 @@
   (junction (at 248.92 137.16) (diameter 0) (color 0 0 0 0)
     (uuid 4a6201e0-27bf-45be-9212-e18de0fece0e)
   )
-  (junction (at 83.82 182.88) (diameter 0) (color 0 0 0 0)
-    (uuid 4e06b561-93bc-4fe4-a865-d05996ed3058)
-  )
   (junction (at 205.74 111.76) (diameter 0) (color 0 0 0 0)
     (uuid 52858f73-9fcb-496f-84b2-2f141888fb47)
   )
@@ -1184,6 +1181,9 @@
   )
   (junction (at 203.2 29.21) (diameter 0) (color 0 0 0 0)
     (uuid 7b3b738b-1a28-493d-8898-ee38287c6b98)
+  )
+  (junction (at 87.63 186.69) (diameter 0) (color 0 0 0 0)
+    (uuid 7c2b2fcf-a6d4-4a27-9060-2a22c19b6443)
   )
   (junction (at 118.11 43.18) (diameter 0) (color 0 0 0 0)
     (uuid 81f66f7c-993c-4033-99df-f617e1908874)
@@ -1327,10 +1327,6 @@
   (no_connect (at 124.46 124.46) (uuid f51ae096-69bc-42e6-9cd8-3acb7f516ae9))
   (no_connect (at 124.46 68.58) (uuid fd4427dc-9a42-42a2-ad09-f0b0383a443c))
 
-  (wire (pts (xy 134.62 186.69) (xy 97.79 186.69))
-    (stroke (width 0) (type default))
-    (uuid 006dd5a7-68a6-4f80-af12-a2e1775e718f)
-  )
   (wire (pts (xy 163.83 17.78) (xy 175.26 17.78))
     (stroke (width 0) (type default))
     (uuid 00f668d2-f1da-4e51-ae00-ccaf5d43a743)
@@ -1362,10 +1358,6 @@
   (wire (pts (xy 205.74 99.06) (xy 205.74 97.79))
     (stroke (width 0) (type default))
     (uuid 07d94ff7-9bbc-45ae-b916-c6abd25a0ae2)
-  )
-  (wire (pts (xy 83.82 160.02) (xy 97.79 160.02))
-    (stroke (width 0) (type default))
-    (uuid 08d2e916-a026-4a4d-bf0e-faf7f26f5566)
   )
   (wire (pts (xy 109.22 33.02) (xy 118.11 33.02))
     (stroke (width 0) (type default))
@@ -1415,6 +1407,10 @@
     (stroke (width 0) (type default))
     (uuid 1986457a-fa07-4dea-9bf9-33f943e4be76)
   )
+  (wire (pts (xy 130.81 186.69) (xy 97.79 186.69))
+    (stroke (width 0) (type default))
+    (uuid 1ced5ce7-6963-423a-871e-3c591d0c19c1)
+  )
   (wire (pts (xy 259.08 144.78) (xy 269.24 144.78))
     (stroke (width 0) (type default))
     (uuid 1df40865-ab19-4cdb-abda-d11f4b75a389)
@@ -1438,6 +1434,10 @@
   (wire (pts (xy 63.5 41.91) (xy 63.5 43.18))
     (stroke (width 0) (type default))
     (uuid 23e8fc46-20b3-404a-90fb-4b3b179b0c3f)
+  )
+  (wire (pts (xy 130.81 184.15) (xy 130.81 186.69))
+    (stroke (width 0) (type default))
+    (uuid 2801aad6-ba93-4e81-81c4-850e5485c082)
   )
   (wire (pts (xy 232.41 29.21) (xy 226.06 29.21))
     (stroke (width 0) (type default))
@@ -1514,10 +1514,6 @@
   (wire (pts (xy 203.2 19.05) (xy 203.2 17.78))
     (stroke (width 0) (type default))
     (uuid 4062180e-e1df-40ff-bda0-a3a418d006ff)
-  )
-  (wire (pts (xy 97.79 160.02) (xy 97.79 161.29))
-    (stroke (width 0) (type default))
-    (uuid 40d3444d-96ca-4c77-9c70-c8f7a8e1f4b1)
   )
   (wire (pts (xy 232.41 17.78) (xy 222.25 17.78))
     (stroke (width 0) (type default))
@@ -1599,10 +1595,6 @@
     (stroke (width 0) (type default))
     (uuid 616c410a-a5b9-4f64-b1b8-62000e15cd04)
   )
-  (wire (pts (xy 107.95 176.53) (xy 119.38 176.53))
-    (stroke (width 0) (type default))
-    (uuid 6279d6ee-c2fb-44a5-b32e-b7e3bee86ffc)
-  )
   (wire (pts (xy 46.99 78.74) (xy 60.96 78.74))
     (stroke (width 0) (type default))
     (uuid 6568a82d-183a-4b13-a087-8be06c6dd67a)
@@ -1611,11 +1603,15 @@
     (stroke (width 0) (type default))
     (uuid 673a2cf1-6479-4792-b337-ea1457914720)
   )
+  (wire (pts (xy 87.63 186.69) (xy 87.63 177.8))
+    (stroke (width 0) (type default))
+    (uuid 682e4f9d-24b3-4531-a633-407a73c73694)
+  )
   (wire (pts (xy 152.4 17.78) (xy 163.83 17.78))
     (stroke (width 0) (type default))
     (uuid 685ababb-76f3-4a0b-a8a6-79c4aa28944e)
   )
-  (wire (pts (xy 83.82 160.02) (xy 83.82 175.26))
+  (wire (pts (xy 87.63 161.29) (xy 87.63 170.18))
     (stroke (width 0) (type default))
     (uuid 68db1f50-fc0f-4da8-9009-3776e4cb15d9)
   )
@@ -1687,9 +1683,9 @@
     (stroke (width 0) (type default))
     (uuid 7658e45d-0ae9-4240-bd16-ca5cf0990f9b)
   )
-  (wire (pts (xy 107.95 166.37) (xy 129.54 166.37))
+  (wire (pts (xy 87.63 161.29) (xy 97.79 161.29))
     (stroke (width 0) (type default))
-    (uuid 771c35f4-cee3-4ca2-aa6f-7ea4a522cd9e)
+    (uuid 776f8680-e06f-48fc-9fef-1d9fe11ba0c3)
   )
   (wire (pts (xy 91.44 50.8) (xy 91.44 38.1))
     (stroke (width 0) (type default))
@@ -1703,7 +1699,7 @@
     (stroke (width 0) (type default))
     (uuid 78ac1944-526b-493a-ba06-3eca99d6af47)
   )
-  (wire (pts (xy 119.38 168.91) (xy 107.95 168.91))
+  (wire (pts (xy 107.95 168.91) (xy 119.38 168.91))
     (stroke (width 0) (type default))
     (uuid 78c74045-c9c3-4f3e-9b07-5ed909cbd16e)
   )
@@ -1714,10 +1710,6 @@
   (wire (pts (xy 63.5 17.78) (xy 72.39 17.78))
     (stroke (width 0) (type default))
     (uuid 797738f6-0b2c-4b00-bc21-0881b5182019)
-  )
-  (wire (pts (xy 107.95 173.99) (xy 119.38 173.99))
-    (stroke (width 0) (type default))
-    (uuid 79acfd67-a502-4ec7-b57b-3c8612e3fd4e)
   )
   (wire (pts (xy 52.07 17.78) (xy 63.5 17.78))
     (stroke (width 0) (type default))
@@ -1743,10 +1735,6 @@
     (stroke (width 0) (type default))
     (uuid 7f7d63b4-76c9-413c-81ac-458dc9bbb6a3)
   )
-  (wire (pts (xy 83.82 182.88) (xy 83.82 186.69))
-    (stroke (width 0) (type default))
-    (uuid 7f9d067b-15bd-4122-833d-71faeb8e202c)
-  )
   (wire (pts (xy 205.74 116.84) (xy 205.74 121.92))
     (stroke (width 0) (type default))
     (uuid 81fbeaa1-72f1-4deb-a66f-6cbf22b0f606)
@@ -1763,6 +1751,10 @@
     (stroke (width 0) (type default))
     (uuid 86db32b2-ae93-419c-880a-20776c69f1a1)
   )
+  (wire (pts (xy 107.95 176.53) (xy 119.38 176.53))
+    (stroke (width 0) (type default))
+    (uuid 880dd5e6-2545-4c01-a091-8202d117d2ba)
+  )
   (wire (pts (xy 124.46 73.66) (xy 146.05 73.66))
     (stroke (width 0) (type default))
     (uuid 885d8825-1fb2-4387-a7f1-637ce94da9a7)
@@ -1770,6 +1762,10 @@
   (wire (pts (xy 248.92 144.78) (xy 259.08 144.78))
     (stroke (width 0) (type default))
     (uuid 88aa95ea-829f-4981-8bff-ccb391efffd6)
+  )
+  (wire (pts (xy 107.95 173.99) (xy 119.38 173.99))
+    (stroke (width 0) (type default))
+    (uuid 8988bab3-f88a-4401-8907-64e81da29af8)
   )
   (wire (pts (xy 182.88 127) (xy 163.83 127))
     (stroke (width 0) (type default))
@@ -1779,7 +1775,7 @@
     (stroke (width 0) (type default))
     (uuid 8bf0d6bb-69f8-41cf-a0ac-f65d916608f0)
   )
-  (wire (pts (xy 134.62 171.45) (xy 134.62 179.07))
+  (wire (pts (xy 130.81 171.45) (xy 130.81 176.53))
     (stroke (width 0) (type default))
     (uuid 8ccd4e5c-ba5d-4c56-9245-0942a42f9a15)
   )
@@ -1887,10 +1883,6 @@
     (stroke (width 0) (type default))
     (uuid ace2293a-6e9e-4731-92f0-85cb6402aea5)
   )
-  (wire (pts (xy 97.79 186.69) (xy 97.79 187.96))
-    (stroke (width 0) (type default))
-    (uuid adb1b387-00d1-4c5a-9c80-11fba381351e)
-  )
   (wire (pts (xy 205.74 121.92) (xy 205.74 127))
     (stroke (width 0) (type default))
     (uuid ae080f3d-583a-4a11-9d4a-13c8309936dc)
@@ -1946,6 +1938,10 @@
   (wire (pts (xy 72.39 17.78) (xy 72.39 33.02))
     (stroke (width 0) (type default))
     (uuid c043bb70-d659-4b71-ad5d-7d54185cd35b)
+  )
+  (wire (pts (xy 87.63 186.69) (xy 97.79 186.69))
+    (stroke (width 0) (type default))
+    (uuid c04a80ab-42ec-4617-b8ba-14d07f6f82ef)
   )
   (wire (pts (xy 259.08 160.02) (xy 269.24 160.02))
     (stroke (width 0) (type default))
@@ -2023,13 +2019,13 @@
     (stroke (width 0) (type default))
     (uuid d4097a9b-e118-48be-baa0-bafff7672aec)
   )
-  (wire (pts (xy 83.82 186.69) (xy 97.79 186.69))
-    (stroke (width 0) (type default))
-    (uuid d465ad87-55f4-45c9-a9d0-4ffe6b12d622)
-  )
   (wire (pts (xy 107.95 179.07) (xy 119.38 179.07))
     (stroke (width 0) (type default))
     (uuid d5514407-9c92-4af0-a2cf-1ecff111a129)
+  )
+  (wire (pts (xy 107.95 166.37) (xy 125.73 166.37))
+    (stroke (width 0) (type default))
+    (uuid d62d1886-5e1a-48de-855f-4f28a0000a9b)
   )
   (wire (pts (xy 124.46 106.68) (xy 146.05 106.68))
     (stroke (width 0) (type default))
@@ -2095,7 +2091,7 @@
     (stroke (width 0) (type default))
     (uuid f28e814d-c2af-42b5-b498-ac0c621c41a0)
   )
-  (wire (pts (xy 27.94 182.88) (xy 83.82 182.88))
+  (wire (pts (xy 27.94 186.69) (xy 87.63 186.69))
     (stroke (width 0) (type default))
     (uuid f2ef7a91-1e29-4a4d-8ef3-2724f0bfa3e2)
   )
@@ -2115,7 +2111,7 @@
     (stroke (width 0) (type default))
     (uuid f654f042-b116-4b29-84cd-774ab22cc35b)
   )
-  (wire (pts (xy 27.94 154.94) (xy 27.94 182.88))
+  (wire (pts (xy 27.94 154.94) (xy 27.94 186.69))
     (stroke (width 0) (type default))
     (uuid f72bfe7a-1841-47ed-a8d8-f4fbd21b28d1)
   )
@@ -2144,6 +2140,10 @@
     (uuid ff7291ef-2e5e-4104-9365-44c3fe33911f)
   )
 
+  (text "BOOT" (at 127 171.45 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 120d5ac6-8ca3-4c27-a147-7c117f1f1a1b)
+  )
   (text "Pin44" (at 116.84 33.02 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9b6a660b-fcce-45b0-9b72-efedb64b069e)
@@ -2209,7 +2209,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3245159b-7018-4d51-8478-081b5ff18c36)
   )
-  (label "PP_VSYS" (at 96.52 160.02 180) (fields_autoplaced)
+  (label "PP_VSYS" (at 96.52 161.29 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 373bf164-bb63-4d9e-ad13-512cf2ec3109)
   )
@@ -2401,7 +2401,7 @@
     (pin "10" (uuid a3bb2383-b6fa-4b8f-a2eb-499a3a331ab5))
     (pin "5" (uuid aef8ca54-8aaa-4bf1-8e3c-749c6be7ab6c))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/a35c9153-0265-4fe3-a273-36fe824ead5c"
           (reference "J3") (unit 1)
         )
@@ -2430,7 +2430,7 @@
     (pin "1" (uuid 2ca35dda-7d52-417e-b1b2-739dd687e2b8))
     (pin "2" (uuid 1c3f1b78-33ad-41f2-b3ca-7b7e880cbe2d))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/a35c9153-0265-4fe3-a273-36fe824ead5c"
           (reference "Y1") (unit 1)
         )
@@ -2459,7 +2459,7 @@
     (pin "1" (uuid df7db947-0aa5-429f-a813-a1622d390551))
     (pin "2" (uuid 3f19ea56-fbae-4ad1-8ca0-4c4fa17d1a8a))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/a35c9153-0265-4fe3-a273-36fe824ead5c"
           (reference "JP5") (unit 1)
         )
@@ -2479,7 +2479,7 @@
     (property "Reference" "J9" (at 208.28 89.2556 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SWD" (at 208.28 91.7956 0)
+    (property "Value" "JST" (at 208.28 91.7956 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal" (at 205.74 90.17 0)
@@ -2493,7 +2493,7 @@
     (pin "1" (uuid 0ac0cbdc-a9b5-4e7a-b589-3b0ba37fec14))
     (pin "MP" (uuid 668697e3-050b-4144-a3a2-85f3303c020f))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/d0a2139e-6278-4334-840e-d95717eb163a"
           (reference "J9") (unit 1)
         )
@@ -2519,7 +2519,7 @@
     (pin "1" (uuid 22f81c2e-3e90-4d5b-b6af-fb44d60b6333))
     (pin "2" (uuid 07cc3613-45c5-4d26-a4b9-05a6e125d047))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/a35c9153-0265-4fe3-a273-36fe824ead5c"
           (reference "R13") (unit 1)
         )
@@ -2533,19 +2533,19 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 134.62 182.88 0) (mirror y) (unit 1)
+  (symbol (lib_id "Device:R") (at 130.81 180.34 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 172f95cb-da9f-4cb5-b81b-ca4aa5e070bb)
-    (property "Reference" "R1" (at 139.8778 182.88 90)
+    (property "Reference" "R1" (at 136.0678 180.34 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1k" (at 137.5664 182.88 90)
+    (property "Value" "1k" (at 133.7564 180.34 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 136.398 182.88 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 132.588 180.34 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 134.62 182.88 0)
+    (property "Datasheet" "~" (at 130.81 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a855b9a4-29ea-4233-8a3b-2edc0194d603))
@@ -2556,7 +2556,7 @@
           (reference "R1") (unit 1)
         )
       )
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/d0a2139e-6278-4334-840e-d95717eb163a"
           (reference "R32") (unit 1)
         )
@@ -2570,7 +2570,7 @@
     (property "Reference" "D1" (at 191.77 130.81 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "T RUN" (at 189.23 133.35 0)
+    (property "Value" "GREEN" (at 189.23 133.35 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 186.69 132.08 0)
@@ -2582,7 +2582,7 @@
     (pin "2" (uuid bf4229b6-5436-4b2f-8145-333f3bfe692b))
     (pin "1" (uuid deb845cb-48d6-4185-aee2-def81ee77b5f))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/a35c9153-0265-4fe3-a273-36fe824ead5c"
           (reference "D1") (unit 1)
         )
@@ -2619,7 +2619,7 @@
           (reference "C16") (unit 1)
         )
       )
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/d0a2139e-6278-4334-840e-d95717eb163a"
           (reference "C44") (unit 1)
         )
@@ -2650,7 +2650,7 @@
           (reference "C15") (unit 1)
         )
       )
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/d0a2139e-6278-4334-840e-d95717eb163a"
           (reference "C43") (unit 1)
         )
@@ -2664,7 +2664,7 @@
     (property "Reference" "D1" (at 191.77 110.49 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "PWR" (at 191.77 113.03 0)
+    (property "Value" "ORANGE" (at 189.23 113.03 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 186.69 111.76 0)
@@ -2676,7 +2676,7 @@
     (pin "2" (uuid e4ff15c1-28ea-4a04-a2a5-e053be2a4f54))
     (pin "1" (uuid 2bd8cd26-d33d-4752-9960-9810dcbdf8f9))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/a35c9153-0265-4fe3-a273-36fe824ead5c"
           (reference "D1") (unit 1)
         )
@@ -2708,7 +2708,7 @@
     (pin "1" (uuid 308c6b2b-8d5c-4ded-8099-18a42eb011a0))
     (pin "2" (uuid 4fa9eab6-afe8-445a-8aee-da60f5a24033))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/a35c9153-0265-4fe3-a273-36fe824ead5c"
           (reference "C7") (unit 1)
         )
@@ -2737,7 +2737,7 @@
     (pin "1" (uuid 2a15bf54-6882-4d18-9c0f-1cc6afc65daa))
     (pin "2" (uuid d157099e-bc5c-419f-97a6-950680bef781))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/a35c9153-0265-4fe3-a273-36fe824ead5c"
           (reference "R13") (unit 1)
         )
@@ -2760,7 +2760,7 @@
     (property "Value" "1K" (at 55.88 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 54.61 107.442 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 54.61 107.442 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 54.61 109.22 0)
@@ -2774,7 +2774,7 @@
           (reference "R5") (unit 1)
         )
       )
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/d0a2139e-6278-4334-840e-d95717eb163a"
           (reference "R36") (unit 1)
         )
@@ -2800,7 +2800,7 @@
     (pin "1" (uuid bc98cb29-579b-4f8e-96fc-5cb97eaa9ea2))
     (pin "2" (uuid adc2f6d8-d30e-439d-8469-66bd68f93891))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/a35c9153-0265-4fe3-a273-36fe824ead5c"
           (reference "C6") (unit 1)
         )
@@ -2837,7 +2837,7 @@
     (pin "10" (uuid c6870a54-8549-4a73-bd85-8197b6dec1dc))
     (pin "5" (uuid 32bd612a-ec89-4308-95e3-2647c3c6f09e))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/a35c9153-0265-4fe3-a273-36fe824ead5c"
           (reference "J2") (unit 1)
         )
@@ -2871,7 +2871,7 @@
           (reference "C11") (unit 1)
         )
       )
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/d0a2139e-6278-4334-840e-d95717eb163a"
           (reference "C39") (unit 1)
         )
@@ -2902,7 +2902,7 @@
           (reference "C8") (unit 1)
         )
       )
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/d0a2139e-6278-4334-840e-d95717eb163a"
           (reference "C36") (unit 1)
         )
@@ -2916,7 +2916,7 @@
     (property "Reference" "D1" (at 191.77 115.57 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "UART RX" (at 189.23 118.11 0)
+    (property "Value" "BLUE" (at 189.23 118.11 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 186.69 116.84 0)
@@ -2928,7 +2928,7 @@
     (pin "2" (uuid 8656172b-2229-403a-96c9-cebab270327b))
     (pin "1" (uuid 941a21af-6e4f-47bc-b5ab-710534103640))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/a35c9153-0265-4fe3-a273-36fe824ead5c"
           (reference "D1") (unit 1)
         )
@@ -2965,7 +2965,7 @@
           (reference "C6") (unit 1)
         )
       )
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/d0a2139e-6278-4334-840e-d95717eb163a"
           (reference "C34") (unit 1)
         )
@@ -2991,7 +2991,7 @@
     (pin "1" (uuid 26de82f9-0fbe-4820-bffa-58a0b081717b))
     (pin "2" (uuid cbab8895-c91e-4393-9ba1-4b7a02b93045))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/a35c9153-0265-4fe3-a273-36fe824ead5c"
           (reference "R13") (unit 1)
         )
@@ -3023,7 +3023,7 @@
     (pin "1" (uuid a7b9111d-6926-4f97-b1de-29fc88443aa1))
     (pin "2" (uuid 46b6f24c-e734-42b2-b9c6-e78a527f9d78))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/a35c9153-0265-4fe3-a273-36fe824ead5c"
           (reference "R13") (unit 1)
         )
@@ -3060,7 +3060,7 @@
           (reference "C9") (unit 1)
         )
       )
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/d0a2139e-6278-4334-840e-d95717eb163a"
           (reference "C37") (unit 1)
         )
@@ -3086,7 +3086,7 @@
     (pin "1" (uuid 9283f5f8-dafd-4ac8-983c-89d600593228))
     (pin "2" (uuid 3aa0dccb-cee2-4baa-8fb0-7d213cdbd690))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/a35c9153-0265-4fe3-a273-36fe824ead5c"
           (reference "C4") (unit 1)
         )
@@ -3123,7 +3123,7 @@
           (reference "C7") (unit 1)
         )
       )
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/d0a2139e-6278-4334-840e-d95717eb163a"
           (reference "C35") (unit 1)
         )
@@ -3154,7 +3154,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/d0a2139e-6278-4334-840e-d95717eb163a"
           (reference "C38") (unit 1)
         )
@@ -3162,25 +3162,25 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push_45deg") (at 132.08 168.91 0) (unit 1)
+  (symbol (lib_id "Switch:SW_Push_45deg") (at 128.27 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74186c0e-fe00-42ff-a2ab-08ed0d6ec5a8)
-    (property "Reference" "SW1" (at 133.35 165.1 0)
+    (property "Reference" "SW1" (at 129.54 165.1 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "PP_BOOT" (at 134.62 162.56 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Custom_Lib:TS342A2P" (at 132.08 168.91 0)
+    (property "Value" "BUTTON" (at 130.81 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 132.08 168.91 0)
+    (property "Footprint" "Custom_Lib:TS342A2P" (at 128.27 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 128.27 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 4da7a650-6787-4d67-b024-cc10686f55f7))
     (pin "1" (uuid c660e261-0dea-41d5-b158-ba6ce51c7f8a))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/a35c9153-0265-4fe3-a273-36fe824ead5c"
           (reference "SW1") (unit 1)
         )
@@ -3194,24 +3194,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 97.79 187.96 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "power:GND") (at 97.79 186.69 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e81080e-3779-4097-9e6b-22e78a2e002f)
-    (property "Reference" "#PWR09" (at 97.79 194.31 0)
+    (property "Reference" "#PWR09" (at 97.79 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 97.79 193.04 0)
+    (property "Value" "GND" (at 97.79 190.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 97.79 187.96 0)
+    (property "Footprint" "" (at 97.79 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 97.79 187.96 0)
+    (property "Datasheet" "" (at 97.79 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d89feedb-897f-4187-8daa-9cc27a3b827d))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/7d2581e7-d4e6-4ae2-bee6-8f90d65ea37f"
           (reference "#PWR09") (unit 1)
         )
@@ -3303,7 +3303,7 @@
           (reference "U3") (unit 1)
         )
       )
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/d0a2139e-6278-4334-840e-d95717eb163a"
           (reference "U14") (unit 1)
         )
@@ -3333,7 +3333,7 @@
     (pin "6" (uuid bfbb2c7c-5f1f-42c8-9a33-066a1c674f56))
     (pin "3" (uuid aeca930e-e09f-43d9-a964-d6a9c3ca90a0))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/a35c9153-0265-4fe3-a273-36fe824ead5c"
           (reference "U6") (unit 1)
         )
@@ -3362,7 +3362,7 @@
     (pin "1" (uuid 00fc3cca-0471-46b9-889f-9458decd3478))
     (pin "2" (uuid 9cbf7df8-b5f1-410d-a08f-6698b0e367e4))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/a35c9153-0265-4fe3-a273-36fe824ead5c"
           (reference "R13") (unit 1)
         )
@@ -3394,7 +3394,7 @@
     (pin "1" (uuid 5442c3ef-6d72-4748-aee4-34ac45e3e6df))
     (pin "2" (uuid 77e82e85-81c6-42e7-87a7-168a16d9c449))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/a35c9153-0265-4fe3-a273-36fe824ead5c"
           (reference "C4") (unit 1)
         )
@@ -3426,7 +3426,7 @@
     (pin "1" (uuid 1c41df2d-becd-4666-baa2-4a92dc332078))
     (pin "2" (uuid 05e0289b-f7bb-4a1b-a0e4-ba6b90a857eb))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/a35c9153-0265-4fe3-a273-36fe824ead5c"
           (reference "R13") (unit 1)
         )
@@ -3457,7 +3457,7 @@
     )
     (pin "1" (uuid ff4b14ae-22c6-4251-a7e8-149afccca778))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/a35c9153-0265-4fe3-a273-36fe824ead5c"
           (reference "TP5") (unit 1)
         )
@@ -3491,7 +3491,7 @@
           (reference "C12") (unit 1)
         )
       )
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/d0a2139e-6278-4334-840e-d95717eb163a"
           (reference "C40") (unit 1)
         )
@@ -3516,7 +3516,7 @@
     )
     (pin "1" (uuid 402fe158-ea87-4941-bed7-df20e6f90d97))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/7d2581e7-d4e6-4ae2-bee6-8f90d65ea37f"
           (reference "#PWR09") (unit 1)
         )
@@ -3551,7 +3551,7 @@
     (pin "5" (uuid d867379a-a406-4a53-9728-1fabb3ad5e6e))
     (pin "2" (uuid 9efd6908-4894-4287-9efa-bfadc44e2d05))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/fef18cd8-7163-47df-8bd9-82611d26fc62"
           (reference "U12") (unit 1)
         )
@@ -3568,7 +3568,7 @@
     (property "Reference" "D1" (at 191.77 120.65 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "UART TX" (at 189.23 123.19 0)
+    (property "Value" "BLUE" (at 189.23 123.19 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 186.69 121.92 0)
@@ -3580,7 +3580,7 @@
     (pin "2" (uuid b06706e1-5bbf-40d5-9494-703ce741ac0c))
     (pin "1" (uuid c8be923e-1762-4535-bd2a-5247156b1bb1))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/a35c9153-0265-4fe3-a273-36fe824ead5c"
           (reference "D1") (unit 1)
         )
@@ -3600,7 +3600,7 @@
     (property "Reference" "D1" (at 191.77 125.73 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "DAP CONN" (at 187.96 128.27 0)
+    (property "Value" "YELLOW" (at 189.23 128.27 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 186.69 127 0)
@@ -3612,7 +3612,7 @@
     (pin "2" (uuid ff6f7268-eca1-4439-8e82-cef633924056))
     (pin "1" (uuid f8f7da3c-ae06-4725-ace6-5d09a5884418))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/a35c9153-0265-4fe3-a273-36fe824ead5c"
           (reference "D1") (unit 1)
         )
@@ -3649,7 +3649,7 @@
           (reference "C13") (unit 1)
         )
       )
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/d0a2139e-6278-4334-840e-d95717eb163a"
           (reference "C41") (unit 1)
         )
@@ -3680,7 +3680,7 @@
           (reference "C14") (unit 1)
         )
       )
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/d0a2139e-6278-4334-840e-d95717eb163a"
           (reference "C42") (unit 1)
         )
@@ -3694,7 +3694,7 @@
     (property "Reference" "J7" (at 208.28 72.7456 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "UART" (at 208.28 75.2856 0)
+    (property "Value" "JST" (at 208.28 75.2856 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal" (at 205.74 73.66 0)
@@ -3708,7 +3708,7 @@
     (pin "1" (uuid 12039b30-d0b2-43d9-ad09-92d33b0ef078))
     (pin "MP" (uuid 5b6b0b78-013a-4da2-985e-2e8f8ef99491))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/d0a2139e-6278-4334-840e-d95717eb163a"
           (reference "J7") (unit 1)
         )
@@ -3716,19 +3716,19 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 83.82 179.07 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 87.63 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f9376298-9cb4-4114-bf24-d52c4370e42f)
-    (property "Reference" "C5" (at 77.47 177.8 0)
+    (property "Reference" "C5" (at 83.82 171.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (at 76.2 180.34 0)
+    (property "Value" "100n" (at 82.55 176.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 84.7852 182.88 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 88.5952 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 83.82 179.07 0)
+    (property "Datasheet" "~" (at 87.63 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 03438746-7dd5-40b4-8edd-81d865ec9c5d))
@@ -3739,7 +3739,7 @@
           (reference "C5") (unit 1)
         )
       )
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/d0a2139e-6278-4334-840e-d95717eb163a"
           (reference "C32") (unit 1)
         )
@@ -3773,7 +3773,7 @@
     (pin "10" (uuid 033c153a-325d-4542-a272-47c2b7cf3381))
     (pin "5" (uuid 29134d13-1872-4369-a92b-48970265430c))
     (instances
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/a35c9153-0265-4fe3-a273-36fe824ead5c"
           (reference "J4") (unit 1)
         )
@@ -3813,7 +3813,7 @@
           (reference "U2") (unit 1)
         )
       )
-      (project "Custom_BMP"
+      (project "UniDebug"
         (path "/f6e95ce6-fb6a-4adf-96e7-9089a12ae5f2/d0a2139e-6278-4334-840e-d95717eb163a"
           (reference "U13") (unit 1)
         )
