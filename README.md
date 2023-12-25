@@ -41,10 +41,10 @@ UniDebug is an open-source hardware project that serves as a unified debugger an
 ## 3D View
 
 ### Top View
-![Top View](https://github.com/shreyask21/UniDebug/raw/main/top.png)
+<img src="https://github.com/shreyask21/UniDebug/raw/main/top.png" alt="drawing" width="200"/>
 
 ### Bottom View
-![Bottom View](https://github.com/shreyask21/UniDebug/raw/main/bottom.png)
+<img src="https://github.com/shreyask21/UniDebug/raw/main/bottom.png" alt="drawing" width="200"/>
 
 ## Contributing
 
