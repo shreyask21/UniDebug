@@ -1,6 +1,6 @@
 # UniDebug - Unified Debugger and Prototyping Tool for Microcontrollers and FPGAs
 
-![UniDebug Logo](<link-to-logo-image>)
+<img src="https://github.com/shreyask21/UniDebug/raw/main/logo.png" alt="drawing" width="250"/>
 
 UniDebug is an open-source hardware project that serves as a unified debugger and prototyping tool for a wide range of microcontrollers and FPGAs. With versatile features and robust components, it provides a seamless debugging and development experience.
 
@@ -41,10 +41,10 @@ UniDebug is an open-source hardware project that serves as a unified debugger an
 ## 3D View
 
 ### Top View
-<img src="https://github.com/shreyask21/UniDebug/raw/main/top.png" alt="drawing" width="200"/>
+<img src="https://github.com/shreyask21/UniDebug/raw/main/top.png" alt="drawing" width="300"/>
 
 ### Bottom View
-<img src="https://github.com/shreyask21/UniDebug/raw/main/bottom.png" alt="drawing" width="200"/>
+<img src="https://github.com/shreyask21/UniDebug/raw/main/bottom.png" alt="drawing" width="300"/>
 
 ## Contributing
 
