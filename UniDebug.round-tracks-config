@@ -1,0 +1,8 @@
+Default	True	1.5	3
+1V8	True	1.5	3
+3V3	True	1.5	3
+5V	True	1.5	3
+DIGITALIO	True	1.5	3
+GND	True	1.5	3
+USB	True	1.5	3
+False	True	False

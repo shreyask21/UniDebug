@@ -1,0 +1,10 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "GL850G-HH")(type "KiCad")(uri "${KIPRJMOD}/Footprints_Symbols/GL850G-HH.kicad_sym")(options "")(descr ""))
+  (lib (name "MIC29302AWD")(type "KiCad")(uri "${KIPRJMOD}/Footprints_Symbols/MIC29302AWD.kicad_sym")(options "")(descr ""))
+  (lib (name "FTSH-105-01-L-D")(type "KiCad")(uri "${KIPRJMOD}/Footprints_Symbols/FTSH-105-01-L-D.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_RP2040")(type "Legacy")(uri "${KIPRJMOD}/Footprints_Symbols/MCU_RaspberryPi_RP2040.lib")(options "")(descr ""))
+  (lib (name "DMP2305U-7")(type "KiCad")(uri "${KIPRJMOD}/Footprints_Symbols/DMP2305U-7.kicad_sym")(options "")(descr ""))
+  (lib (name "19-037A_RSGHBHW1-S03_2T")(type "KiCad")(uri "${KIPRJMOD}/Footprints_Symbols/19-037A_RSGHBHW1-S03_2T.kicad_sym")(options "")(descr ""))
+  (lib (name "Edited_FP")(type "KiCad")(uri "${KIPRJMOD}/Footprints_Symbols/Edited_FP.kicad_sym")(options "")(descr ""))
+)
