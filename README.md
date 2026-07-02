@@ -6,6 +6,26 @@
 
 UniDebug is an open-source hardware project that serves as a unified debugger and prototyping tool for a wide range of microcontrollers and FPGAs. With versatile features and robust components, it provides a seamless debugging and development experience.
 
+## Firmware Architecture
+
+UniDebug integrates 4 independent microcontrollers, each running dedicated 
+debug firmware:
+
+| MCU | Firmware | Debug Protocol | Target |
+|-----|----------|---------------|--------|
+| STM32F103 | ST-Link V2.1 | SWD/JTAG | ARM Cortex-M targets |
+| STM32F103 | BlackMagic Debug | GDB/SWD/JTAG | ARM targets (no OpenOCD needed) |
+| RP2040 | PicoProbe (CMSIS-DAP) | SWD | Raspberry Pi RP2xxx |
+| STM32F103 | Custom | I2C/GPIO | Power and USB Hub supervisor, target voltage control, power management |
+
+The FT2232H provides dual-channel USB High-Speed JTAG/SPI/I2C via MPSSE.
+
+### Why This Exists
+Commercial debug probes (Segger J-Link, Lauterbach) are expensive and 
+single-protocol. UniDebug consolidates 4 debug probes + a high-speed 
+FTDI interface into one USB-C board with ESD protection and configurable 
+target voltage (1.2V–5V).
+
 ## Features
 
 - **FT2232H Dual Channel USB High-Speed FIFO Controller:**
